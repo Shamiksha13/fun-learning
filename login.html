@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Login</title>
+        <style>
+            body {
+                background-color: black;
+            }
+            h1 {
+                color: azure;
+            }
+
+            .box {
+                background-color: rgba(53, 27, 61, 0.63);
+                border-radius: 10px;
+                border-width: 300px;
+                width: 450px;
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            
+            }
+            .textbox {
+                height: 35px;
+                width: 200px;
+                border-color: black;
+                border-radius: 10px;
+                background-color: black;
+                color: azure;
+            }
+            .sub {
+                background-color: rgb(148, 97, 141);
+                border-radius: 10px;
+                color: black;
+                width: 150px;
+                height: 30px;
+
+            }
+            .sub:hover{
+                background-color: rgb(202, 135, 211);
+                transform: scale(1.05);
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="box">
+                <center><h1>Welcome</h1></center>
+                <br>
+                <center><input class="textbox" type="text" id="Email" placeholder="enter username"</center>
+                <br>
+                <br>
+                <center><input class="textbox" type="password" id="Password" placeholder="enter password"></center>
+                <br>
+                <button class="sub" type="button">Login</button>
+                <br>
+                <p><a href="#" type="button" target="_blank">forgot password?</a> | <a href="#" type="button" target="_blank">Create Account</a></p>
+            </div>
+        </form>
+    </body>
+</html>
